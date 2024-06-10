@@ -48,6 +48,7 @@
     }
 
     const updUser=(id)=>{
+        console.log("updateeeeeeeeee");
         console.log(`/upd/${id}`);
         axios.put(`/upd/${id}`,{user:user.value,pwd:pwd.value}).then(res => console.log(res.data))
     }
